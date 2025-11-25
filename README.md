@@ -20,6 +20,16 @@ laravel new --using=ldriko/laravel-clean-react
 
 Once installed, you'll have a clean Laravel project with React, Inertia.js, and Shadcn UI configured and ready to use—without any of the default authentication scaffolding or demo pages that come with the standard Laravel starter kit.
 
+## Setup
+When cloning the repo, use these commands to start laravel up in running.
+
+```
+1. npm install
+2. composer install
+3. php artisan key:generate
+4. php artisan migrate
+```
+
 ## Contributing
 
 Contributions to Laravel Clean React are welcomed and encouraged! As Laravel and its ecosystem continue to evolve, keeping this starter kit up to date becomes a community effort.
